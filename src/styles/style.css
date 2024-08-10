@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100..900&display=swap');
-@import url(./src/styles/about.css);
-@import url(./src/styles/contact.css);
-@import url(./src/styles/footer.css);
-@import url(./src/styles/header.css);
-@import url(./src/styles/home.css);
-@import url(./src/styles/projects.css);
-@import url(./src/styles/skills.css);
+@import url(./about.css);
+@import url(./contact.css);
+@import url(./footer.css);
+@import url(./header.css);
+@import url(./home.css);
+@import url(./projects.css);
+@import url(./skills.css);
 
 * {
     margin: 0;
