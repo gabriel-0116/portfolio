@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./src/styles/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+</head>
+<body> 
+    <header class="header">
+        <a href="#" class="logo">Portfólio</a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Início</a>
+            <a href="#about">Sobre</a>
+            <a href="#skills">Habilidades</a>
+            <a href="#projects">Projetos</a>
+            <a href="#contact">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <!-- HOME DESIGN-->
+        <section class="home" id="home">
+            <div class="home-content">
+                <h3>Olá, eu sou</h3>
+                <h1>Gabriel Santos</h1>
+                <h3>Sou um <span class="multiple-text"></span></h3>
+                <p>Desde criança sou encantado por tecnologia e quando descobri que programação poderia ser minha realiadade minha paixão só cresceu.</p>
+                <div class="social-media">
+                    <a href="https://www.linkedin.com/in/devgabrielsantos01/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/gabriel-0116"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/gabrielsz01/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://wa.me/5511972248790"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+                <a href="./public/Currículo Gabriel Santos .pdf" class="btn">Download CV</a>
+            </div>
+
+            <div class="home-img">
+                <img src="./src/imgs/eu.svg" alt="eu">
+            </div>
+    
+        </section>
+
+        <!--ABOUT DESIGN-->
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="./src/imgs/eu2.svg" alt="eu2">
+            </div>
+
+            <div class="about-content">
+                <h2 class="heading">Sobre <span>mim</span></h2>
+                <h3>FullStack Developer</h3>
+                <p>Estou profundamente conectado com o mundo da programação e meu objetivo é me tornar um Desenvolvedor Full Stack de sucesso que possa fazer a diferença. Meu diferencial é o rápido aprendizado, uma boa comunicação e sou flexível. Possuo uma forte facilidade e experiência em trabalho em equipe que pode ser muito útil.</p>
+                <a href="#" class="about-btn">Saiba Mais</a>
+            </div>
+        </section>
+
+        <!--SKILLS DESIGN-->
+        <section class="skills" id="skills">
+            <h2 class="heading">Minhas <span>Habilidades</span></h2>
+            
+            <div class="skills-container">
+                <div class="skills-box">
+                    <h3>JavaScript</h3>
+                    <img src="./src/imgs/javascript.svg" alt="javascript">
+                </div> 
+
+                <div class="skills-box">
+                    <h3>HTML</h3>
+                    <img src="./src/imgs/html.svg" alt="HTML">
+                </div>
+
+                <div class="skills-box">
+                    <h3>CSS</h3>
+                    <img src="./src/imgs/css.svg" alt="CSS">
+                </div>
+
+                <div class="skills-box">
+                    <h3>TypeScript</h3>
+                    <img src="./src/imgs/typescript.svg" alt="CSS">
+                </div>
+
+                <div class="skills-box">
+                    <h3>Git</h3>
+                    <img src="./src/imgs/git.svg" alt="CSS">
+                </div>
+
+                <div class="skills-box">
+                    <h3>NodeJS</h3>
+                    <img src="./src/imgs/node.svg" alt="CSS">
+                </div>
+
+                <div class="skills-box">
+                    <h3>Figma</h3>
+                    <img src="./src/imgs/figma.svg" alt="CSS">
+                </div>
+            </div>
+        </section>
+
+        <!--PROJECTS DESIGN-->
+        <section class="projects" id="projects">
+            <h2 class="heading">Últimos <span>Projetos</span></h2>
+            <div class="projects-container">
+                <div class="projects-box">
+                    <img src="./src/imgs/projectcalcu.svg" alt="Calculadora">
+                    <div class="projects-layer">
+                        <h4>Calculadora</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit assumenda sint.</p>
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </div>
+                </div>
+                
+                <div class="projects-box">
+                    <img src="./src/imgs/projectcalcu.svg" alt="Calculadora">
+                    <div class="projects-layer">
+                        <h4>Calculadora</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit assumenda sint.</p>
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </div>
+                </div>
+
+                <div class="projects-box">
+                    <img src="./src/imgs/projectcalcu.svg" alt="Calculadora">
+                    <div class="projects-layer">
+                        <h4>Calculadora</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit assumenda sint.</p>
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--CONTATC DESIGN-->
+        <section class="contact" id="contact">
+            <h2 class="heading">Fala <span>Comigo</span></h2>
+
+            <form action="#">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email Address">
+                </div>
+
+                <div class="input-box">
+                    <input type="number" placeholder="Mobile Number">
+                    <input type="text" placeholder="Email Subject">
+                </div>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn">                
+            </form>
+        </section>
+
+    </main>
+    
+    <!--FOOTER DESIGN-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Gabriel Santos</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+    
+    <!--SCROLL REVEAL-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+     <!--TYPED JS-->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!--MAIN JAVASCRIPT-->
+    <script src="./src/main.js"></script>
+
+</body>
+</html>

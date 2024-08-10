@@ -1,0 +1,47 @@
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-img img {
+    width: 30vw;
+    border-radius: 50%;
+    box-shadow: 0 0 3rem ;
+}
+
+.heading {
+    text-align: center;
+    font-size: 6rem;
+    margin-left: 3rem;
+}
+
+.about-content h2 {
+    text-align: left;
+    line-height: 1.2;
+    margin-left: 3rem;
+}
+
+.about-content h3 {
+    font-size: 4.5rem;
+    margin-left: 3rem;
+}
+
+.about-content p {
+    font-size: 1.8rem;
+    margin-left: 3rem;
+}
+
+.about-btn {
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: #81a9ff;
+    border-radius: 4rem;
+    box-shadow: 0 0 2rem #fff;
+    font-size: 1.6rem;
+    color: #fff;
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+    margin: 3rem;
+}
